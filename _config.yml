@@ -11,7 +11,10 @@ author: udnz.com
 language: zh-CN
 ? timezone
 
+theme: jekyll-theme-minimal
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://schoolsmap.udnz.com
 root: /
+
