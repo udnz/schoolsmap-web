@@ -1,0 +1,18 @@
+# Site
+title: 学位地图
+description: 深圳学位查询平台，专为家长打造！一键查询深圳各片区小学、初中学位分布，让择校、买房决策更高效、更安心！
+keywords: 深圳，学位查询，学位地图，初中学位，小学学位，南山，福田，罗湖，宝安，龙岗，盐田
+lang: zh-CN
+
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+show_downloads: false
+github:
+  is_project_page: false
+
+google_analytics: [ "G-DCTYHZRZRV" ]
+
+# 自定义版权信息
+copyright: "Copyright © 2025 udnz.com. All Rights Reserved."
