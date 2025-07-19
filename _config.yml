@@ -4,19 +4,15 @@
 
 # Site
 title: 学位地图
-? subtitle
 description: 深圳片区小学、初中学位查询；根据学校查询小区、楼盘；根据小区、楼盘查询学校
 keywords: 深圳，学位查询，学位地图，初中学位，小学学位，南山，福田，罗湖，宝安，龙岗，盐田
-author: udnz.com
-language: zh-CN
-? timezone
 
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 show_downloads: [ false ]
-google_analytics: []
+google_analytics: [ ]
 
 # # URL
 # ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
