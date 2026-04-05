@@ -5,10 +5,6 @@ keywords: 深圳，学位查询，学位地图，初中学位，小学学位，�
 lang: zh-CN
 
 remote_theme: pages-themes/cayman@v0.2.0
-header_pages:
-  - README.md
-  - privacy-cn.md
-  - subscription-terms.md
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 
