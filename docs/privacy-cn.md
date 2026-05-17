@@ -106,10 +106,6 @@ UDNZ.COM 开发了本应用。作为一款商业应用，本服务由 UDNZ.COM �
 
 ## 12. 联系我们
 
-如果您对本隐私政策有任何疑问或意见，请通过以下方式与我们联系：
-
-电子邮件：<app-support@udnz.com>
-
-网站：[https://udnz.github.io/schoolsmap-web](https://udnz.github.io/schoolsmap-web/)
+如果您对本隐私政策有任何疑问或意见，请通过 [技术支持](./support.md) 页面提供的联系方式与我们联系。
 
 感谢您使用本应用！
