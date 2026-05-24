@@ -11,6 +11,25 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <style>
+      .footer-nav {
+        margin-bottom: 0.5rem;
+        font-size: 0.9em;
+      }
+      .footer-nav a {
+        color: #8a8a8a;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .footer-nav a:hover {
+        color: #157878;
+        text-decoration: underline;
+      }
+      .footer-divider {
+        color: #555;
+        margin: 0 0.3em;
+      }
+    </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -31,9 +50,17 @@
       {{ content }}
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
+        <nav class="footer-nav">
+          <a href="{{ '/' | relative_url }}">首页</a>
+          <span class="footer-divider">·</span>
+          <a href="{{ '/privacy-cn' | relative_url }}">隐私政策</a>
+          <span class="footer-divider">·</span>
+          <a href="{{ '/subscription-terms' | relative_url }}">订阅条款</a>
+          <span class="footer-divider">·</span>
+          <a href="{{ '/licenses-reference' | relative_url }}">开源许可</a>
+          <span class="footer-divider">·</span>
+          <a href="{{ '/support' | relative_url }}">技术支持</a>
+        </nav>
         <span class="site-footer-credits">{{ site.copyright | default: site.time | date: '%Y' }}</span>
       </footer>
     </main>
